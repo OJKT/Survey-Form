@@ -1,5 +1,151 @@
 # Survey-Form
 Challenge 2
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Khand:500);
+
+html,body {
+  background-color: #FC5555;
+  text-align: center;
+  font-family: font-family: "Khand", sans-serif;
+  min-width: 400px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+header {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+sub-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+#form-outer {
+  background-color: rgb(208, 208, 208);
+  margin-top: 50px;
+  margin-left: 25%;
+  margrn-bottom: 50px;
+  border-radius: 40px;
+  height: auto;
+  max-height: 1000px;
+  width: 75%;
+  max-width: 1000px;
+  padding: 10px;
+  padding-top: 20px;
+  border: 2px solid red;
+}
+
+.labels {
+  display: inline-block;
+  font-family: "Khand", sans-serif;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: left;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: #FC5555;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 2px solid red;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+footer{
+  
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
+  </style>
 <h1 id="title"><u>" Would you Rather "</u></h1>
 <hr>
 <h2 id="sub-title">' THE GAME '</h2>
